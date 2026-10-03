@@ -1,0 +1,30 @@
+.features {
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+.features-subtitle {
+  font-size: 20px;
+  margin: 8px auto 8px;
+  line-height: 1.2;
+}
+.features-desc {
+  font-weight: 400;
+  color: #434455;
+}
+.features-icon {
+}
+.features-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+}

@@ -1,0 +1,74 @@
+.team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  margin: 0 auto 72px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.team-item {
+  width: calc((100% - 24px * 3) / 4);
+  border-radius: 0 0 4px 4px;
+  background: #fff;
+}
+.team-ill {
+  display: block;
+  min-width: 100%;
+}
+.kebab-case {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+.team-prof {
+  font-weight: 400;
+  text-align: center;
+  color: #434455;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
+  /*
+  width: 264px;padding: 32px;
+  height: 120px;*/
+}
+.team-social .link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+  color: #f4f4fd;
+  transition: background 250ms ease-in-out;
+}
+
+.team-social {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.team-wrapper {
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-social .link:hover,
+.team-social .link:focus {
+  color: #f4f4fd;
+  background: #404bbf;
+}
